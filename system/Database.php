@@ -5,7 +5,7 @@ class Database {
 	public $db;
 	
 	function __construct(){
-		$this->db = new mysqli("localhost", "root", "kopi", "kbl_bumigora");
+		$this->db = new mysqli("localhost", "root", "", "bot");
 	}
 	
 	function __destruct(){
